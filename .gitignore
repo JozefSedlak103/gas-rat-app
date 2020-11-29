@@ -2,3 +2,4 @@ cat .gitignore
 
 /dialer/node_modules
 /compass/node_modules
+/project/node_modules
