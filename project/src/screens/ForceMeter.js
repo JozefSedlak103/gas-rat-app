@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {I18nManager, Text, View, Dimensions, Button, ImageBackground } from 'react-native';
 import { Accelerometer, Constants } from 'expo-sensors';
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 import styles from '../assets/styles.js';
 import * as RNLocalize from "react-native-localize";
 import memoize from "lodash.memoize";

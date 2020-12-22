@@ -8,6 +8,7 @@ import Stopwatch from './screens/Stopwatch';
 import RepairTable from './screens/RepairTable';
 import MainScreen from './screens/MainScreen';
 import MapScreen from './screens/MapScreen';
+import LoginScreen from './screens/LoginScreen';
 import * as RNLocalize from "react-native-localize";
 import memoize from "lodash.memoize";
 import i18n from 'i18n-js';
@@ -61,6 +62,7 @@ class App extends Component {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen name="Login" component={LoginScreen} options= {{title: translate('Login')}}/>
         <Stack.Screen name="Menu" component={MainScreen} options= {{title: "Menu"}} />
         <Stack.Screen name="Map" component={MapScreen} options= {{title: translate('Map')}} />
         <Stack.Screen name="ForceMeter" component={ForceMeter} options= {{title: translate('Force meter')}} />

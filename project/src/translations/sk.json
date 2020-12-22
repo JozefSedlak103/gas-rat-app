@@ -11,6 +11,14 @@
     "Part": "Diel",
     "Price": "Cena",
     "Note": "Poznámka",
-    "ADD": "Vlož"
+    "ADD": "Vlož",
+    "Login":"Prihlásenie",
+    "Location permission":"Povolenie zdieľania polohy",
+    "We use your location to get the speed of your car":"Vašu polohu používame na určenie rýchlosti vozidla",
+    "OK":"OK",
+    "Cancel":"Zrušiť",
+    "Continue":"Pokračovať",
+    "change":"Zmeň",
+    "name":"meno"
 
 }

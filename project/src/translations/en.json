@@ -11,5 +11,13 @@
     "Part": "Part",
     "Price": "Price",
     "Note": "Note",
-    "ADD": "ADD"
+    "ADD": "ADD",
+    "Login":"Login",
+    "Location permission":"Location permission",
+    "We use your location to get the speed of your car":"We use your location to get the speed of your car",
+    "OK":"OK",
+    "Cancel":"Cancel",
+    "Continue":"Continue",
+    "change":"change",
+    "name":"name"
 }

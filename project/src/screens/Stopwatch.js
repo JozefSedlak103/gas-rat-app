@@ -57,10 +57,10 @@ export default class Stopwatch extends Component {
       android: {
         detail: "fine",
         rationale: {
-          title: "Location permission",
-          message: "We use your location to get the speed of your car",
-          buttonPositive: "OK",
-          buttonNegative: "Cancel"
+          title: translate("Location permission"),
+          message: translate("We use your location to get the speed of your car"),
+          buttonPositive: translate("OK"),
+          buttonNegative: translate("Cancel")
         }
       }
     }).then(granted => {
